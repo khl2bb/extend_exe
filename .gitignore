@@ -1,0 +1,138 @@
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+@Choi33 
+@bsara bsara/js.gitignore
+Last active 15 days ago • Report abuse
+1
+1
+ Code Revisions 8 Stars 1 Forks 1
+<script src="https://gist.github.com/bsara/35ade5031d120c08adad.js"></script>
+  
+.gitignore File for JavaScript Projects
+ js.gitignore
+#---------------------------------------#
+# Project Ignores                       #
+#---------------------------------------#
+
+# output
+/.temp
+/.tmp
+/build
+/dist
+
+# dependencies
+/node_modules
+.package.swp
+
+# linters
+.eslintcache/
+.eslintrc
+.eslintrc.yaml
+.eslintrc.json
+.eslintrc.js
+.stylelintcache/
+.stylelintrc
+.stylelintrc.yaml
+.stylelintrc.json
+.stylelintrc.js
+
+# misc
+/connect.lock
+/coverage/*
+/report_*
+/reports/
+.sass-cache/
+*.log
+
+
+#---------------------------------------#
+# IDEs & Editors Ignores                #
+#---------------------------------------#
+
+# Sublime Text
+/*.sublime*
+.sublime-gulp.cache
+
+# JetBrains IDEs
+/.idea
+
+
+#---------------------------------------#
+# General Ignores                       #
+#---------------------------------------#
+
+*~
+*.orig
+.vagrant
+
+
+#---------------------------------------#
+# Linux Ignores                         #
+#---------------------------------------#
+
+# KDE directory preferences
+.directory
+
+
+#---------------------------------------#
+# OSX Ignores                           #
+#---------------------------------------#
+
+.DS_Store
+.AppleDouble
+.LSOverride
+.localized
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+#---------------------------------------#
+# Windows Ignores                       #
+#---------------------------------------#
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+@Choi33
+ 
+Leave a comment
+Attach files to your comment
+Attach files by dragging & dropping, selecting or pasting them.
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
